@@ -7,17 +7,7 @@ int main(void)
     int pass = 0;
 
     printf("\n Enter the password : \n");
-    gets(buff);
-
-    if(strcmp(buff, "easyas123"))
-    {
-        printf ("\n Wrong Password \n");
-    }
-    else
-    {
-        printf ("\n Correct Password \n");
-        pass = 1;
-    }
+    scanf("%s", buff);
 
     if(pass)
     {
